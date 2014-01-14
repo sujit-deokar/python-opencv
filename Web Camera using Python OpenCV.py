@@ -1,3 +1,8 @@
+"""
+Python-OpenCV code for camera access.
+created: 14/1/2014
+auhor: sujitdeokar@ymail.com
+"""
 import cv2
 
 cap=cv2.VideoCapture(0)#Pass '0' to access default WebCam
