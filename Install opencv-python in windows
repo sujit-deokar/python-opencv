@@ -1,0 +1,14 @@
+Installing OpenCV module on Python in Windows :
+
+Easy way:
+Actually there is not much of "installing" needed in this shortcut.
+
+Download the OpenCV installer from www.opencv.org. this file last I checked was of 291MB for the newest version of OpenCV 2.4.6. This is a self extracting .exe file.And the fun part is you need only a cv2.pyd file of about 8MB for using Python Module,which unfortunately is binded inside the exe file.
+
+Go to opencv>build>python>2.7 you will find the cv2.pyd compiled python file just copy it and paste it inside site-packages directory of your python2.7 installation usually found in C:/>Python27>Libs>site-packages
+
+And now open the Python IDE you use(IDLE/other) and type
+
+import cv2
+
+Hit enter,if it returns nothing Hurray! now you have the cv2 module installed else check if the directories are correct.
