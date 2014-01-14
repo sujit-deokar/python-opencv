@@ -1,0 +1,13 @@
+I am using Ubuntu12.04 LTS (So only installation of OpenCV in Ubuntu 12.04 is verified personally,though you can try same procedure for other linux distributions).
+
+Easy but obsolete,with standard features:
+
+You can use synaptic manager/software center of Ubuntu(or any other linux with apt package manager) to search python-opencv.But this repository provides only OpenCV2.3 you can install these if you want,It is the easiest way.(there are some difference between new versions of OpenCV and this version,but most of the programs I wrote worked on both versions of OpenCV)
+
+Bit difficult but Newest,with advanced features (build the whole OpenCV library using cmake):
+
+I worried if having obsolete version of OpenCV would make problems.So I searched internet once again relentlessly and finally found Laz's Vision blog,a superb blog describing the procedure.
+
+http://karytech.blogspot.in/2012/05/opencv-24-on-ubuntu-1204.html
+
+Though I was a beginner in Ubuntu,the blog explained the procedure in way anyone with little bit of command line experience can follow them.
